@@ -38,12 +38,6 @@ int main()
         printf("\n7  :  Delete Last Node From SLL .");
         printf("\n8  :  Delete Between Node From SLL .");
         printf("\n9  :  Count Nodes in SLL .");
-        printf("\n10 :  Delete Duplicate SLL.");
-        printf("\n11 :  Sort SLL.");
-        printf("\n12 :  Reverse SLL.");
-        printf("\n13 :  Merge/union SLL.");
-        printf("\n14 :  Merge/union Sort SLL.");
-        printf("\n15 :  Merge/union SLL+ + Remove Duplicate.");
         printf("\n=============================");
         printf("\nEnter your Choice: ");
         scanf("%d",&choice);
@@ -330,4 +324,5 @@ Node *deleteBetween(Node *head,int pos)
 
     return head;
 }
+
 
